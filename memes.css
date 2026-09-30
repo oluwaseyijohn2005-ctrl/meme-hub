@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+.feed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+img{
+    width: 100%;
+}
+.meme-cards{
+background-color: white;
+width: 90%;
+max-width: 400px;
+margin: 20px auto;
+padding: 12px;
+border-radius: 8px;
+box-shadow: 0 2px 8px rgb(0, 0, 0);
+}
