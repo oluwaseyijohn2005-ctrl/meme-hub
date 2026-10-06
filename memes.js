@@ -90,9 +90,9 @@ sharebtn.addEventListener("click",async ()=>{
     if(navigator.share){
         try {
             await navigator.share({
-                title:"My first Share",
-                text:"Check this out",
-                url:"cards.img"
+                title:"Funny Memes",
+                text:"Check out Funny Memes",
+                url: cards.img
             })
         } catch (e) {
             console.log("This was cancelled")
